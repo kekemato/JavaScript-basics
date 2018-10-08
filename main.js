@@ -3,6 +3,7 @@ var number = 10;
 var x = "5";
 var age = 20;
 var iHaveADrivingLicense = true;
+var i = 10;
 
 if (youLikeBoardGames = true){
     document.write("You love board games!");
@@ -36,8 +37,14 @@ else if (x < 5){
 }
 
 if (age >= 18 && iHaveADrivingLicense == true){
-    document.write("<br> <br> You can go on a vacation to Italy with us!");
+    document.write("<br> <br> You can go on a vacation to Italy with us! <br>");
 }
 else if (age < 18 || iHaveADrivingLicense == false){
-    document.write("<br> <br> You cannot go with us");
+    document.write("<br> <br> You cannot go with us <br>");
 }
+
+while (i >= 0){
+    document.write("<br>" + i + "<br>");
+    i--
+}
+document.write("<br> <strong>Boom!</strong>");
