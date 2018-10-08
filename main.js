@@ -58,4 +58,17 @@ for (let m = 1; m <= 10; m++){
         for (let p = 1; p <= 10; p++){
             document.write(p * m + " ");
         }
+}
+
+for (let b = 1; b < 10; b++){
+
+    if (b === 3 || b === 5){
+        continue;
     }
+
+    document.write("<br>" + b + " ");
+
+    if (b === 7){
+        break;
+    }
+}
