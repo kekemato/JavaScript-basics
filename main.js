@@ -1,33 +1,16 @@
-//The first alert
-alert("Hello, World!");
+var youLikeBoardGames = true;
+var number = 10;
 
-//The second alert
-alert("Hello again");
+if (youLikeBoardGames = true){
+    document.write("You love board games!");
+}
+else {
+    document.write("You don't like board games :(");
+}
 
-//Variables
-const name = "Magda";
-var age = 24;
-let adress = "Lublin" 
-
-age -= 1;
-adress += "Poland";
-
-/* Basic mathematical operators:
-= - assign
-+ - add numbers and strings
-- - substract numbers
-* - multiply numbers
-/ - divide numbers 
-++var - increment
-var++
---var - decrement
-var-- */
-
-//Important console commands
-console.log(name);
-document.write(adress);
-
-Boolean(4 > 3);
-Boolean (6 < 2);
-Boolean("Is it true?");
-Boolean("");
+if (number > 9){
+    document.write("Number is greater than 9");
+}
+else (number < 9){
+    document.write("Number is smaller than 9");
+}
