@@ -9,11 +9,11 @@ else {
 }
 
 if (number > 9){
-    document.write("Number is greater than 9");
+    document.write(" <br> Number is greater than 9");
 }
 else if (number < 9){
     document.write("<br> Number is smaller than 9");
 }
 else if (number == 9){
-    document.write("Number is equal to 9");
+    document.write(" <br> Number is equal to 9");
 }
