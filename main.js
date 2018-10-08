@@ -22,3 +22,7 @@ adress += "Poland";
 var++
 --var - decrement
 var-- */
+
+//Important console commands
+console.log(name);
+document.write(adress);
