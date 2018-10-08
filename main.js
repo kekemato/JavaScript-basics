@@ -73,3 +73,10 @@ for (let b = 1; b < 10; b++){
     }
 }
 
+function average (a,b){
+var average = (a + b) / 2;
+return average;
+}
+
+var result = average(11, 5);
+document.write("<br> The result is: " + result);
