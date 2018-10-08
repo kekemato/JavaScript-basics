@@ -1,6 +1,8 @@
 var youLikeBoardGames = true;
 var number = 10;
 var x = "5";
+var age = 20;
+var iHaveADrivingLicense = true;
 
 if (youLikeBoardGames = true){
     document.write("You love board games!");
@@ -31,4 +33,11 @@ if (x >= 5){
 }
 else if (x < 5){
     document.write("<br> x is smaller than 5");
+}
+
+if (age >= 18 && iHaveADrivingLicense == true){
+    document.write("<br> <br> You can go on a vacation to Italy with us!");
+}
+else if (age < 18 || iHaveADrivingLicense == false){
+    document.write("<br> <br> You cannot go with us");
 }
