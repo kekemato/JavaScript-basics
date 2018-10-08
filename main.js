@@ -26,3 +26,8 @@ var-- */
 //Important console commands
 console.log(name);
 document.write(adress);
+
+Boolean(4 > 3);
+Boolean (6 < 2);
+Boolean("Is it true?");
+Boolean("");
