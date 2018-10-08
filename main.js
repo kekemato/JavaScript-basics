@@ -84,5 +84,8 @@ document.write("<br> The result is: " + result);
 var num = 5;
 var test = "4";
 
-console.log(num + test);
-console.log(typeof(num + test));
+if (!NaN == num || !NaN == test){
+    document.write("<br> meaning of life is" + num * test);
+}
+else (NaN == num || NaN == test)
+    document.write("<br> You can only put numbers in!");
