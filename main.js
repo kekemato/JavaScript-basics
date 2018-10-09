@@ -98,3 +98,10 @@ else (NaN == num || NaN == test)
     else if (string.indexOf("dog")!== -1){
         console.log("Dogs are cool even though they smell.");
     }
+
+    var slice= string.slice(18,21);
+    console.log(slice);
+
+    var animals = "cat, dog, duck, rabbit, cow";
+    var animalsArray = animals.split(",");
+    console.log(animalsArray);
