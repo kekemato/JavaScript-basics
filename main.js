@@ -89,3 +89,12 @@ if (!NaN == num || !NaN == test){
 }
 else (NaN == num || NaN == test)
     document.write("<br> You can only put numbers in!");
+
+    var string = "I'm getting a new cat today";
+
+    if (string.indexOf("cat")!== -1){
+        console.log("Yay I love cats!");
+    }
+    else if (string.indexOf("dog")!== -1){
+        console.log("Dogs are cool even though they smell.");
+    }
