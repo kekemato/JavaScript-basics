@@ -34,7 +34,6 @@ var colorChanger = document.getElementById("color-changer");
 var colors = ["red", 'blue', "green", "yellow"];
 var counter = 0;
 
-
 function changeColor (){
 
     if (counter >= colors.length){
