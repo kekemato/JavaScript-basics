@@ -1,16 +1,18 @@
-var myCar = new Object();
-myCar.driver = "Magda";
-myCar.maxSpeed = 150;
-myCar.color = "red";
+var Car = function(driver, maxSpeed, color){
+this.driver = driver;
+this.maxSpeed = maxSpeed;
+this.color = color;
 
-myCar.drive = function(){
+this.drive = function(){
     console.log("I'm driving");
 }
-myCar.distanceTraveled = function(speed,time){
+this.distanceTraveled = function(speed,time){
     console.log(speed * time);
 }
+}
 
-myCar.distanceTraveled(100, 2.5);
+var myCar = new Car("Magda", 150, "red");
+myCar.drive();
 
 var myCar2 = {
     driver: "Patryk",
@@ -30,5 +32,5 @@ var myCar2 = {
     }
 };
 
-myCar2.drive();
+console.log(myCar2.maxSpeed);
 myCar2.driverLog();
