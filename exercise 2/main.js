@@ -34,3 +34,6 @@ var myCar2 = {
 
 console.log(myCar2.maxSpeed);
 myCar2.driverLog();
+
+var birthday = new Date(1994, 11, 13, 4, 20);
+console.log(birthday.getMonth());
