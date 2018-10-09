@@ -11,3 +11,11 @@ uniqueParagraph.textContent = "This is a new awesome text."
 console.log(uniqueParagraph.getAttribute("id"));
 uniqueParagraph.setAttribute("style", "color:red;");
 uniqueParagraph.style.color="blue";
+
+var list = document.getElementsByTagName("ul")[0];
+var newLi =document.createElement("li");
+var newA = document.createElement("a");
+list.appendChild(newLi);
+newLi.appendChild(newA);
+newA.innerHTML="Link 5";
+newA.setAttribute("href", "#");
