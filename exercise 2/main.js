@@ -23,7 +23,12 @@ var myCar2 = {
 
     distanceTraveled: function(speed,time){
         console.log(speed * time);
+    },
+
+    driverLog: function() {
+        console.log("Currently " + this.driver + " is driving.")
     }
 };
 
 myCar2.drive();
+myCar2.driverLog();
