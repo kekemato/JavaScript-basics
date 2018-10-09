@@ -24,6 +24,8 @@ newA.setAttribute("href", "#");
 var child = document.getElementsByTagName("li")[2];
 var removed = list.removeChild(child);
 
+window.onload = function() {
 uniqueParagraph.onclick = function(){
     alert("you clicked me! :)");
+}
 }
