@@ -19,6 +19,7 @@ list.appendChild(newLi);
 newLi.appendChild(newA);
 newA.innerHTML="Link 5";
 newA.setAttribute("href", "#");
+// parent.insertBefore("element I want to add", "element before which I want to add a new element");
 
 var child = document.getElementsByTagName("li")[2];
 var removed = list.removeChild(child);
