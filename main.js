@@ -105,3 +105,7 @@ else (NaN == num || NaN == test)
     var animals = "cat, dog, duck, rabbit, cow";
     var animalsArray = animals.split(",");
     console.log(animalsArray);
+
+    var array1 = [3, 1, 7, 4, 13, 2]; //13 will be on array1[1]
+    array1.sort();
+    console.log(array1);
