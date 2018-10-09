@@ -19,3 +19,6 @@ list.appendChild(newLi);
 newLi.appendChild(newA);
 newA.innerHTML="Link 5";
 newA.setAttribute("href", "#");
+
+var child = document.getElementsByTagName("li")[2];
+var removed = list.removeChild(child);
