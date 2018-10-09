@@ -28,4 +28,22 @@ window.onload = function() {
 uniqueParagraph.onclick = function(){
     alert("you clicked me! :)");
 }
+
+
+var colorChanger = document.getElementById("color-changer");
+var colors = ["red", 'blue', "green", "yellow"];
+var counter = 0;
+
+
+function changeColor (){
+
+    if (counter >= colors.length){
+        counter = 0;
+    }
+
+    colorChanger.style.backgroundColor = colors[counter];
+    counter++;
+}
+
+setInterval(changeColor, 3000);
 }
